@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-container label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.input-form {
+    padding: 12px;
+    width: 150px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#generate {
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#generate:hover {
+    background-color: #218838;
+}
+
+#calendar {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.month {
+    margin-bottom: 20px;
+}
+
+.month-name {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-table th,
+.calendar-table td {
+    width: 14.28%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.calendar-table th {
+    background-color: #f2f2f2;
+}
+
+.sunday {
+    color: red;
+}
